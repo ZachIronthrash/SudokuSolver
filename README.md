@@ -47,7 +47,7 @@ To utilize SudokuInterface:
 <!-- Describe your project structure here -->
 
 ```
-SudokuSolver/
+Sudoku/
 ├── src/
 │   └── (Source files)
 ├── data/
