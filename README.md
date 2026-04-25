@@ -9,7 +9,7 @@ A simple Java framework for creating, viewing, and solving Sudoku puzzles via pr
 ## Features
 
 <!-- Add your features here -->
-- Displaying Sudoku boards of in the console
+- Displaying Sudoku boards in the console
 - Creating, editing, saving, and loading boards of any square radix
 - Solving boards according to standard Sudoku rules
 
