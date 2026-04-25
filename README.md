@@ -9,9 +9,9 @@ A simple Java framework for creating, viewing, and solving Sudoku puzzles via pr
 ## Features
 
 <!-- Add your features here -->
-- 
-- 
-- 
+- Displaying Sudoku boards of in the console
+- Creating, editing, saving, and loading boards of any square radix
+- Solving boards according to standard Sudoku rules
 
 ## Getting Started
 
@@ -33,10 +33,6 @@ cd SudokuSolver
 
 <!-- Add usage instructions here -->
 
-```bash
-java -cp . YourMainClass
-```
-
 ## Project Structure
 
 <!-- Describe your project structure here -->
@@ -44,7 +40,11 @@ java -cp . YourMainClass
 ```
 SudokuSolver/
 ├── src/
-│   └── (Your source files)
+│   └── (Source files)
+├── data/
+│   ├── saved/
+│   │   └── (Saved boards)
+│   └── (Storage files for src)
 ├── README.md
 └── .gitignore
 ```
