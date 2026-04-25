@@ -606,13 +606,13 @@ public class SudokuBoard {
             out.write("   ");
             for (int i = 1; i <= this.radix; i++) {
                 String s = Integer.toString(i);
-                out.write(" " + s + " ".repeat(width - s.length() + 1));
+                out.write(" " + s + " ".repeat(width - s.length() + 2));
             }
             out.newLine();
 
             // Divider
             int cellWidth = width + 2;
-            int totalWidth = this.radix * (cellWidth + 1) + 3;
+            int totalWidth = this.radix * (cellWidth + 1) + 1;
             out.write(" ".repeat(2) + "-".repeat(totalWidth));
             out.newLine();
 
