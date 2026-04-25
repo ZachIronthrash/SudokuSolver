@@ -33,14 +33,14 @@ cd SudokuSolver
 
 <!-- Add usage instructions here -->
 This project consists of two classes: SudokuBoard and SudokuInterface.
-    - SudokuBoard consists of methods which allow for the storage, modification, and solutions of Sudoku boards and is generally applicable to applications involving Sudoku.
-    - SudokuInterface is an example user interface that uses the console, and SudokuBoard's printing methods to facilatate all the functionality of SudokuBoard.
+- SudokuBoard consists of methods which allow for the storage, modification, and solutions of Sudoku boards and is generally applicable to applications involving Sudoku.
+- SudokuInterface is an example user interface that uses the console, and SudokuBoard's printing methods to facilatate all the functionality of SudokuBoard.
 
 To utilize SudokuInterface:
-    1. Run SudokuInterface.java.
+1. Run SudokuInterface.java.
         if a runtime error occurs with SudokuBoard.load(...) then data/board.txt has been corrupted and a valid board must be copied from data/saved/. This issue should not occur with a fresh installation but may appear after crashes.
-    2. Follow the prompts to operate on the loaded board, or select/create a new one.
-    3. The solver should produce the correct solution path if one exists (currently only finds the first discovered solution and throws out the rest), and the user can find the full solution path--including backtracking--in data/debug.txt.
+2. Follow the prompts to operate on the loaded board, or select/create a new one.
+3. The solver should produce the correct solution path if one exists (currently only finds the first discovered solution and throws out the rest), and the user can find the full solution path--including backtracking--in data/debug.txt.
 
 ## Project Structure
 
